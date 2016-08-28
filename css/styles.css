@@ -1,106 +1,28 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:';
-/*universal*/
-body{font-family: 'Raleway', sans-serif;
-}
 /*header*/
 .logo {
   width: 90px;
 }
-
 .logo-text{
   font-family: 'Lobster', cursive;
   color: #f48057;
 }
-
 .jumbotron {
   background-image: url('../img/hero.jpg');
   height: 450px;
   background-position: center;
   background-size: 100%;
 }
-
 .action-call {
   color:#fff !important;
   font-size: 35px !important;
   font-weight: 200;
   text-transform: uppercase;
-  margin-top: 10px
+  margin-top: 10px;
 }
-
-.thumbnail{
-  background: #edf1f4;
-  font-size: 15px;
+.thumbnail {
+	width: 200px;
 }
-
-.purchase-button{
+.btn{
   height: 25px;
-  background-color: #5bc0de;
-  font-size:12px;
-}
-
-.product-pic{
-  padding: 10px;
-}
-
-.product-caption{
-  padding: 15px !important;
-}
-
-.product-caption h4{
-  font-weight: bold;
-}
-
-#featured-section{
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.featured{
-  font-weight: bold;
-}
-.services{
-  font-weight: bold;
-  text-align: center;
-}
-/*services section*/
-.services-tab{
-font-weight: bold;
-}
-.services-tab:hover{
-  color: #f48057;
-  font-weight: bold;
-}
-.services-paragraph{
-  margin-bottom: 10px;
-}
-
-/*footer*/
-footer {
-  background: #231f20;
-  min-height: 150px;
-  color: #8e8e8f;
-}
-#footer-logo{
-  height: 100px
-}
-.footer-border{
-  border-left: 1px solid #333;
-
-}
-address{
-  color:#8e8e8f;
-  font-weight: bold;
-  padding: 20px 20px;
-}
-address:hover{
-  color: #f48057;
-}
-#footer-contents{
-  margin-top: 15px;
-}
-.fa{
-  color: #8e8e8f;
-
-}
-.social{
-  padding: 35px 20px;
+  background-color: #00bfff;
 }
